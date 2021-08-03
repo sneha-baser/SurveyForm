@@ -1,0 +1,267 @@
+#main{
+   background-image: url("https://images.all-free-download.com/images/graphiclarge/nostalgic_blue_background_06_hd_pictures_169782.jpg");
+  
+  background-size:cover;
+ 
+  
+ 
+}
+#main h1{
+  text-align:center;
+  color:white;
+  font-size:3vw;
+  font-family: 'Style Script', cursive;
+  padding-top:2.5%;
+  font-weight: bold;  
+}
+#main p{
+  font-size:1.5vw;
+  color:#dcdcdc;
+  font-style: italic;
+  text-align:center;
+  margin-top:-2%;
+  margin-bottom:4%
+}
+#form{
+   
+/*   background-color:#002244; */
+  background-color:rgba(27, 27, 50, 0.8);
+  width:45%;
+  height:1300px;
+  margin:auto;
+  font-family: 'Hahmlet', serif;
+  
+}
+#name-label{
+  font-size:1.5vw;
+  color:#FFFAFA;
+  margin-left:8%; 
+}
+#email-label{
+  font-size:1.5vw;
+  color:#FFFAFA;
+  margin-left:8%; 
+  
+}
+#number-label{
+  font-size:1.5vw;
+  color:#FFFAFA;
+  margin-left:8%;  
+}
+#dropdown-label {
+  font-size:1.5vw;
+  color:#FFFAFA;
+  margin-left:8%;  
+}
+#radiobox-label{
+  font-size:1.5vw;
+  color:#FFFAFA;
+  margin-left:8%;  
+  
+}
+#checkbox-label , #textarea-label{
+  font-size:1.3vw;
+  color:#FFFAFA;
+  margin-left:8%;  
+}
+#sample{
+  padding-bottom:5%;
+}
+#name{
+  width:80%;
+  height:30px;
+  margin-left:8%;
+  border-radius:5px;
+  outline-style:none;
+  border : 0px;
+    margin-top:10px;
+  padding: 1px 2px;
+  color:	#383838;
+  font-size:1vw;
+  margin-bottom:1%;
+   
+}
+#email{
+  width:80%;
+  height:30px;
+  margin-left:8%;
+  border-radius:5px;
+  outline-style:none;
+  border : 0px;
+    margin-top:10px;
+  padding: 1px 2px;
+  color:	#383838;
+  font-size:1vw;
+   margin-bottom:1%;
+}
+#number{
+  width:80%;
+  height:30px;
+  margin-left:8%;
+  border-radius:5px;
+  outline-style:none;
+  border : 0px;
+    margin-top:10px;
+  padding: 1px 2px;
+  color:	#383838;
+  font-size:1vw;
+   margin-bottom:1%;
+}
+#dropdown{
+  width:80%;
+  height:30px;
+  margin-left:8%;
+  border-radius:5px;
+  outline-style:none;
+  border : 0px;
+    margin-top:10px;
+  padding: 1px 2px;
+  color:	#383838;
+  font-size:1vw;
+   margin-bottom:1%;
+}
+
+::-webkit-input-placeholder {
+  font-size:1vw;
+}
+#dropdown{
+   width:80%;
+  height:30px;
+  margin-left:8%;
+  border-radius:5px;
+  outline-style:none;
+  border : 0px;
+    margin-top:10px;
+  padding: 1px 2px;
+  color:	#383838;
+  font-size:1vw;
+}
+input[type=radio] {
+ 
+   width:20%;
+  border-radius:100%;
+  border: 0px;
+    height: 0.8em;
+   margin-bottom:1%;
+
+  
+}
+input[type=checkbox] {
+ 
+   width:20%;
+  border-radius:100%;
+  border: 0px;
+    height: 0.9em;
+   margin-bottom:1%;
+ 
+
+}
+#Definitely{
+         color:#FFFAFA;
+  font-size:1.3vw;
+  margin-top:15px;
+  font-family: 'Hahmlet', serif;
+  
+  }
+#Maybe{
+  margin-top:8px;
+         color:#FFFAFA;
+  font-size:1.3vw;
+  }
+#Notsure{
+  margin-top:8px;
+         color:#FFFAFA;
+  font-size:1.3vw;
+  }
+#FrontendP , #BackendP,#DataV,#Challenges,#AddC{
+  margin-top:15px;
+         color:#FFFAFA;
+  font-size:1.3vw;
+  
+  }
+#textarea{
+  margin-left:8%;
+  margin-top:2.5%;
+  width:80%;
+  font-size:1.5vw;
+  color:	#383838;
+}
+#submit{
+  background-color:#3cb371;
+  color:#fdfff5;
+  font-size:1.5vw;
+  width:80%;
+  margin-left:8%;
+  padding:5px 0px;
+  border:1px solid #3cb371;
+  border-radius:5px;
+  
+}
+
+@media only screen and (max-width: 900px) {
+  #form {
+    height:1200px;
+  }
+  #name-label , #email-label , #number-label , #dropdown-label , #radiobox-label , #textarea-label{
+    font-size:1.5vw;
+  }
+  #checkbox-label{
+    font-size:1.2vw;
+  }
+  #name , #email , #number {
+    width:80%;
+  height:30px;
+  margin-left:8%;
+  border-radius:5px;
+  outline-style:none;
+  border : 0px;
+    margin-top:10px;
+  padding: 1px 2px;
+  color:	#383838;
+  font-size:2.5vw;
+   margin-bottom:1%;
+  }
+  #dropdown{
+     width:80%;
+  height:30px;
+  margin-left:8%;
+  border-radius:5px;
+  outline-style:none;
+  border : 0px;
+    margin-top:10px;
+  padding: 1px 2px;
+  color:	#383838;
+  font-size:1.5vw;
+   margin-bottom:1%;
+  }
+  ::-webkit-input-placeholder {
+  font-size:1.5vw;
+}
+ 
+ 
+ 
+
+#Definitely{
+         color:#FFFAFA;
+  font-size:1.5vw;
+  margin-top:15px;
+  font-family: 'Hahmlet', serif;
+  
+  }
+#Maybe{
+  margin-top:8px;
+         color:#FFFAFA;
+  font-size:1.5vw;
+  }
+#Notsure{
+  margin-top:8px;
+         color:#FFFAFA;
+  font-size:1.5vw;
+  }
+#FrontendP , #BackendP,#DataV,#Challenges,#AddC{
+  margin-top:15px;
+         color:#FFFAFA;
+  font-size:1.5vw;
+  
+  }
+}
